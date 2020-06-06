@@ -6,12 +6,19 @@ import Wrapper from './Styled-Components/Wrapper';
 
 function App() {
   const [txt, setTxt] = useState(' B E A R ');
+  const [toggleFlg, setToggleFlg] = useState(1);
   const click1 = () => {
-    setTxt('no matter what');
+    if (toggleFlg) {
+      setTxt('Believe Effort Action Result');
+      setToggleFlg(0);
+    } else {
+      setTxt(' B E A R ');
+      setToggleFlg(1);
+    }
   };
   return (
     <Wrapper>
-      <Heading1>Styled Components Testing Ground {txt}</Heading1>
+      <Heading1>Styled Components - {txt}</Heading1>
       <Button onClick={click1}>No Plan B</Button>
     </Wrapper>
   );

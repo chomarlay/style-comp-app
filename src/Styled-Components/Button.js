@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Button = styled.a`
   background: white;
-  color: ${(props) => (props.themeColor ? props.themeColor : 'yellow')};
+  color: ${(props) => (props.themeColor ? props.themeColor : 'black')};
   font-size: 2em;
   margin: 1em;
   padding: 0.25em 1em;
