@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-const Button = styled.a`
-  background: white;
-  color: ${(props) => (props.themeColor ? props.themeColor : 'black')};
-  font-size: 2em;
+const Button = styled.button`
+  cursor: pointer;
+  background: black;
+  color: ${(props) => (props.themeColor ? props.themeColor : 'white')};
+  font-size: 20px;
   margin: 1em;
   padding: 0.25em 1em;
   border: 2px solid black;
