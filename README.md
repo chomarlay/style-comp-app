@@ -20,8 +20,8 @@ In the project directory,
 
 #### `npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome`
 
-### `Runs the app in the development mode.`
+## `Runs the app in the development mode.`
 
-In the project directory, you can run:
+In the project directory, run:
 
 #### `npm start`
