@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   text-align: center;
-  // display: flex;
-  // flex-direction: column;
+  padding: 4em;
+  background: papayawhip;
 `;
 
 export default Wrapper;
