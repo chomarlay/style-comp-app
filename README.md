@@ -1,21 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `Installation`
+## `Installation`
 
-## `Create react app`
+### `Create react app`
 
-npx create-react-app style-comp-app
+#### `npx create-react-app style-comp-app`
 
-## `Install styled-compoents`
+Project directory style-comp-app will be created
 
-npm install --save styled-components
+### `Install styled-compoents`
 
-## `Install fontawesome icons`
+In the project directory,
 
-npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+#### `npm install --save styled-components`
+
+### `Install fontawesome icons`
+
+In the project directory,
+
+#### `npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome`
 
 ### `Runs the app in the development mode.`
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
