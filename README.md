@@ -14,6 +14,12 @@ In the project directory,
 
 #### `npm install --save styled-components`
 
+### `Install react-router-dom`
+
+In the project directory,
+
+#### `npm install react-router-dom`
+
 ### `Install fontawesome icons`
 
 In the project directory,
